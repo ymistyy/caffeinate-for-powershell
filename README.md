@@ -2,6 +2,8 @@
 
 A simple PowerShell script and executable to prevent your Windows system and/or display from sleeping, inspired by the macOS `caffeinate` command.
 
+![Preview](https://i.imgur.com/72Tkik0.png)
+
 ---
 
 ## Features
