@@ -62,15 +62,17 @@ After compiling the script into `caffeinate.exe`, you can add its folder to your
 ### Steps:
 
 1. Compile the script:
+   
    ```powershell
+   Install-Module -Name ps2exe -Scope CurrentUser -Force
    Invoke-ps2exe .\caffeinate.ps1 .\caffeinate.exe
    ```
 
-2. Move `caffeinate.exe` to a folder like:
+3. Move `caffeinate.exe` to a folder like:
    ```
    C:\Tools\caffeinate   ```
 
-3. Add that folder to your system `PATH`:
+4. Add that folder to your system `PATH`:
    - Open **Start Menu**, search for **Environment Variables**
    - Click **"Environment Variables…"**
    - In **System variables**, find and select **Path**, then click **Edit**
@@ -79,7 +81,7 @@ After compiling the script into `caffeinate.exe`, you can add its folder to your
      C:\Tools\caffeinate     ```
    - Click OK, then OK again
 
-4. Now you can run:
+5. Now you can run:
    ```
    caffeinate -t 60
    ```
