@@ -113,10 +113,4 @@ This project is licensed under the MIT License.
 
 ---
 
-## Author
-
-Ymistyy
-
----
-
 Feel free to contribute or report issues!
